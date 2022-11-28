@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact us, our customer service are open as long as our visiting hours. call us or send us a direct message using our message form.">
+    <meta name="keyword" content="contact, customer,servce, open, message, call, museum">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Contact_us</title>
+</head>
+<body>
+    <header>
+        <h1>Community Science Museum</h1>
+        <div class="logo"><a href="index.html"><img src="/pictures/logo.jpg" alt="Community_Science_Museum_logo"></a></div>
+        <div class="nav">
+            <input type="checkbox" id="menu">
+            <label for="menu" class="hamburger_menu"></label>
+            <i class="fa-solid fa-bars"></i>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="star.html">Young Star Club</a></li>
+                    <li><a href="exhibitions.html">Exhibitions</a></li>
+                    <li><a href="contact.html" class="on">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Contact us</h1>
+            <div>
+                <p>
+                    feel free to contact us on telephone or use the contact form below and we will answer you on Email, we are located on Parkveien 6, 4836 Arendal
+                    Tlf: 999988888
+                </p>
+                <p>
+                    Hours:
+                    <ul>
+                        <li>Monday: Closed</li>
+                        <li>Tuesday: 10:00 – 16:00</li>
+                        <li>Wednesday: 10:00 – 16:00</li>
+                        <li>Thursday: 10:00 – 16:00</li>
+                        <li>Friday: 10:00 – 19:00</li>
+                        <li>Saturday: 9:00 – 16:00</li>
+                        <li>Sunday: 9:00 – 13:00</li>
+                    </ul>
+                </p>
+            </div>
+        </section>
+        <section>
+            <form action="Post">
+                <div>
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" required>
+                </div>
+                <div>
+                    <label for="number">Phone number</label>
+                    <input type="text" name="number" required>
+                </div>
+                <div>
+                  <label for="reason">basis for contact</label>
+                  <select name="reason" id="reason" required>
+                    <option value="Voluteer">Voluteer</option>
+                    <option value="support">Support/donation</option>
+                    <option value="intern">Internship</option>
+                    <option value="Q">questions about the museum</option>
+                    <option value="school">arrange a school trip</option>
+                    <option value="other">Other</option>
+                  </select>  
+                </div>
+                <div>
+                    <label for="text">Write your message here</label>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+         <h2>Hours</h2>
+         <ul>
+             <li>Monday: Closed</li>
+             <li>Tuesday, wedesday and thurday: 10:00 – 16:00</li>
+             <li>Friday: 10:00 – 19:00</li>
+             <li>Saturday: 9:00 – 16:00</li>
+             <li>Sunday: 9:00 – 13:00</li>
+         </ul>
+        </div> 
+        <div>
+         <h2>Admission</h2>
+         <p>The entrance is free for all.
+             guided tours: 70nok
+         </p>
+        </div>
+        copyright &copy;
+     </footer>
+</body>
+</html>
