@@ -24,3 +24,15 @@ p, li{
     font-family: "arial";
     font-size: 14pt;
 }
+.logo img{
+    max-width: 70px;
+    max-height: 70px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav{
+    align-self: flex-end;
+}
