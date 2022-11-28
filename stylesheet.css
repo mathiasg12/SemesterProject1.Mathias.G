@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "vudotronic" ;
+    src: url("/fonts/Vudotronic-X3A49.ttf") format("truetype");
+}
+header h1{
+    font-family: "vudotronic", "Georgia";
+    font-size: 24pt;
+    font-weight: normal;
+    text-align: center;
+}
+main h1, h2, h3{
+    font-family: "Georgia";
+}
+h1{
+    font-size: 30pt;
+}
+h2{
+    font-size: 24pt;
+}
+h3{
+    font-size: 20pt;
+}
+p, li{
+    font-family: "arial";
+    font-size: 14pt;
+}
