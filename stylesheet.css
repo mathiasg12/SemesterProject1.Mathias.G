@@ -82,6 +82,11 @@ footer{
     background-color: var(--green1);
     color: white;
     padding: 2%;
+    padding-top: 4%;
+    margin: 0%;
+}
+footer h2{
+    text-align: start;
 }
 footer li, .visit li{
     list-style: none;
@@ -113,7 +118,7 @@ footer ul, .visit ul{
    margin: 0 auto;
    border-radius: 48%;
 }
-.cta_con{
+.cta_con, .contact_cta{
     padding: 20px 0;
 }
 .visit{
@@ -127,7 +132,7 @@ footer ul, .visit ul{
 }
 .visit p{
     padding-bottom: 20px;
-    max-width: 350px;
+    max-width: 300px;
 }
 .events{
     display: flex;
@@ -139,14 +144,38 @@ footer ul, .visit ul{
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     min-width: 100%;
-
 }
 .card{
     background-color: #FFEB3B;
-    max-height: 400px;
+    max-height: 450px;
     max-width: 330px;
     border-radius: 10%;
+    margin: 20px;
+
 }
+.card_content{
+    padding:0 5% 5% 5%;
+}
+.involved{
+    display: flex;
+    flex-direction: column;
+    background-color:#91EBE7;
+    align-items: center;
+
+}
+.involved p{
+    max-width: 300px;
+}
+.equipment_photo img{
+    min-height: 340px;
+    
+    
+}
+.equipment_photo{
+    max-height: 340px;
+}
+
+
 
 
 
