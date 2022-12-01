@@ -13,6 +13,7 @@ main h1, h2, h3{
 h1{
     font-size: 30px;
     text-align: center;
+    margin-top: 80px;
 }
 h2{
     font-size: 24px;
@@ -36,6 +37,7 @@ p, li{
 body{
     margin: 0;
     overflow-x: hidden;
+    background-color:#58A166 ;
 }
 header{
     display: flex;
@@ -170,6 +172,7 @@ section{
 .card{
     background-color: #FFEB3B;
     max-height: 700px;
+    min-height: 410px;
     max-width: 330px;
     border-radius: 10%;
     margin: 20px;
@@ -197,40 +200,93 @@ section{
 .equipment_photo{
     max-height: 340px;
 }
-@media screen and (min-width: 601px) {
-   .hamburger_menu{
-    display: none;
-   }
-   nav{
-    display: inline;
-    min-height: 10px ;
+/*exhibition_page*/
+
+.ex_main{
+    display: flex;
+    flex-direction: column;
+}
+.card_exhib{
+    margin: 0 auto;
+}
+.exhib_content{
+    max-width: 200px;
+    margin: 0 auto;
+    min-height: 100px;
 
 }
-   nav ul{
-    list-style: none;
-    display: flex;
-    justify-content:center;
-    padding: 0;
-    margin-bottom: 0;
-   }
-   nav li{
-    margin: 0;
-    padding:2% 2% 0.5% 2%;
-    text-align: center;
-    font-size: 20px;
-    width: 120px;
+.cta_exhib{
+    margin-top: 15px;
+}
+
+/*explore_page*/
+    .explore_content{
+        background-color: #FFEB3B;
+        min-height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 350px;
+        margin: 60px auto 60px auto;
+        
     }
-   .nav{
-    margin: 0;
-   }
-   nav a{
-    padding: 0;
-   }
-   .on{
-    text-decoration: underline solid;
-   }
-   nav li a:hover,  nav li a:focus{
-    font-size: 30px;
+    .explore_content img{
+        height: 350px;
+        width:100vw;
+    }
+    .explore_content p{
+        max-width: 200px;
+    }
+    /*starclub_page*/
+
+    .star_card p{
+        max-width: 200px;
+    }
+    .star_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 60px auto;
+    }
+    .star_card img{
+        width: 100vw;
+    }
+
+@media screen and (min-width: 751px){
+    .hamburger_menu{
+        display: none;
+       }
+       nav{
+        display: inline;
+        min-height: 10px ;
+        position: relative;
+       }
+       nav ul{
+        list-style: none;
+        display: flex;
+        justify-content:center;
+        padding: 0;
+        
+       }
+       nav li{
+        margin: 0 10px;
+        padding:1% 1% 0.5% 1%;
+        text-align: center;
+        font-size: 20px;
+        width: 120px;
+        }
+       .nav{
+        margin: 0 auto;
+        min-width: 600px;
+       }
+       nav a{
+        padding: 0;
+       }
+       .on{
+        text-decoration: underline solid;
+       }
+       nav li a:hover,  nav li a:focus{
+        font-size: 30px;
     }
     /*homepage*/
     .home_main{
@@ -238,8 +294,6 @@ section{
         grid-template-columns: repeat(3,auto);
         grid-template-rows: repeat(4,auto);
         column-gap: 5%;
-        
-        
     }
     .welcome_message{
         grid-column: -1/1;
@@ -258,6 +312,7 @@ section{
         grid-row: 2/3 ;
         grid-column: 1/3;
         justify-self: center;
+        margin-top: 100px;
         
     }
     .visit{
@@ -267,7 +322,8 @@ section{
         grid-row: 2/3;
         grid-column: 3/4;
         margin-top: 0;
-        justify-self: end;        
+        justify-self: end; 
+        margin-top: 100px;       
      }
      .events{
         grid-column: 1/-1;
@@ -278,6 +334,7 @@ section{
         max-width: 100vw;
         margin: 0 auto;
         column-gap: 3%;
+        margin-top: 100px;
 
         
      }
@@ -294,6 +351,7 @@ section{
         max-width: 100vw;
         column-gap: 15px;
         align-items: baseline;
+        margin-top: 100px;
         
       }
       .involved img{
@@ -332,12 +390,34 @@ section{
       .card img{
         min-height: 200px;
       }
+      /*exhhibition_page*/
+      .ex_main{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(2,auto);
+        column-gap: 15px;
+    }
+    .ex_main h1, .explore_main h1{
+        grid-row: 1/2;
+        grid-column: 1/-1;
+    }
+    /*explore_page*/
 
-   
+    .explore_content{
+        min-width: 350px;
+    }
+    .explore_main{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(3,auto);
+        column-gap: 15px;
+    }
 
- 
-   
+
+
 }
+
+
 
 
 
