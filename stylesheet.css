@@ -411,6 +411,21 @@ section{
         grid-template-columns: repeat(2,auto);
         grid-template-rows: repeat(3,auto);
         column-gap: 15px;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    /*starclub_page*/
+    .star_main{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2,auto);
+        max-width: 1000px;
+        margin: 0 auto;
+        
+    }
+    .star_main h1{
+        grid-column: 1/-1;
     }
 
 
