@@ -251,6 +251,76 @@ section{
     .star_card img{
         width: 100vw;
     }
+    /*contact_page*/
+    .info_contact{
+        background-color: #FFEB3B;
+        padding: 15px;
+        max-width: 400px;
+        margin: 60px auto;
+    }
+    .info_contact p{
+        max-width: 200px;
+    }
+    .info_contact ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    .form_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+        margin: 60px auto;
+    }
+    .form_container div{
+        max-width: fit-content;
+        margin: 20px 0;
+    }
+    .form_container form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .label{
+        display: block;
+        transform: translateY(-1.5em);
+        padding-left: 5px;
+        position: absolute;
+    }
+    .active_input{
+        width: 180px;
+        height: 22px;
+    }
+    .label_select{
+        transform: translateY(-1.3em) 
+    }
+
+    .active_input:focus + .label,.active_input:valid + .label,
+    .active_textfield:focus + .label_textarea, .active_textfield:valid + .label_textarea{
+        display: none;
+    }
+    .active_input:focus{
+        border: 5px solid;
+        border-color: #91EBE7;
+        height: 28px;
+    }
+    .label_textarea{
+        display: block;
+        transform: translateY(-10.5em);
+        padding-left: 5px;
+        position: absolute;
+    }
+    .active_textfield:focus{
+        border: 5px solid;
+        border-color: #91EBE7;
+    }
+    .send_cta{
+        border-radius: 0%;
+        width: 120px;
+        height: 30px;
+    }
+   
+    
 
 @media screen and (min-width: 751px){
     .hamburger_menu{
