@@ -15,7 +15,7 @@ main h1, h2, h3{
 h1{
     font-size: 30px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 200px;
     
 }
 h2{
@@ -382,7 +382,6 @@ section{
     .cosmo_container{
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
         align-items: center;
     }
     .cosmo_container img{
@@ -412,6 +411,9 @@ section{
 @media screen and (min-width: 751px){
     .hamburger_menu{
         display: none;
+       }
+       h1{
+        margin-top: 300px;
        }
        nav{
         display: inline;
@@ -461,6 +463,9 @@ section{
         grid-template-columns: repeat(3,auto);
         grid-template-rows: repeat(4,auto);
         column-gap: 5%;
+    }
+    .home_main h1{
+        margin-top: 100px;
     }
     .welcome_message{
         grid-column: -1/1;
