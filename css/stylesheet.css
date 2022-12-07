@@ -2,7 +2,7 @@
     font-family: "vudotronic" ;
     src: url("/fonts/Vudotronic-X3A49.ttf") format("truetype");
 }
-header h1{
+.logo p{
     font-family: "vudotronic" , "Georgia";
     font-size: 22px;
     margin-top: 10px;
@@ -16,6 +16,7 @@ h1{
     font-size: 30px;
     text-align: center;
     margin-top: 200px;
+    
     
 }
 h2{
@@ -31,6 +32,9 @@ p, li{
 }
 p:first-letter, li:first-letter{
     text-transform: uppercase;
+}
+em{
+    font-weight: bold;
 }
 :root{
     --green1: #1F5929;
@@ -128,6 +132,9 @@ section{
     align-items: center;
     flex-direction: column;
 }
+.welcome_message h1{
+    margin-top: 60px;
+}
 .explore_exhibits{
     border-radius: 10%;
     max-width: 500px;
@@ -167,7 +174,7 @@ section{
     background-position-x: right;
     background-position-y: bottom;
     color: white;
-    opacity: 0.9;
+    opacity: 0.8;
     max-width: 500px;
     margin: 60px auto 60px auto;
    
@@ -467,9 +474,6 @@ section{
         grid-template-columns: repeat(3,auto);
         grid-template-rows: repeat(4,auto);
         column-gap: 5%;
-    }
-    .home_main h1{
-        margin-top: 100px;
     }
     .welcome_message{
         grid-column: -1/1;
