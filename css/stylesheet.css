@@ -8,6 +8,8 @@
     margin-top: 10px;
     margin-bottom: 20px;
     font-weight: 400;
+    width: 130px;
+    height: 77px;
 }
 main h1, h2, h3{
     font-family: "Georgia";
@@ -16,8 +18,6 @@ h1{
     font-size: 30px;
     text-align: center;
     margin-top: 200px;
-    
-    
 }
 h2{
     font-size: 24px;
@@ -40,14 +40,20 @@ em{
     --green1: #1F5929;
 }
 .logo img{
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 70px;
+    max-height: 70px;
     border-radius: 100%;
     padding: 0 10px;
+    align-self: center;
+    padding-bottom: 5px;
 }
 .logo{
+    margin: 10px auto 0 auto;
+}
+.logo a{
     display: flex;
-    margin: 15px 0 auto 66.55px;
+    text-decoration: none;
+    color: white;
 }
 body{
     margin: 0;
@@ -417,6 +423,11 @@ section{
     
 
 @media screen and (min-width: 751px){
+    .logo p{
+        width: fit-content;
+        height: fit-content;
+        margin: auto auto;
+    }
     section{
         margin: 100px 0;
     }
@@ -436,6 +447,7 @@ section{
         display: flex;
         justify-content:center;
         padding: 0;
+        margin: 10px auto;
         
        }
        nav li{
