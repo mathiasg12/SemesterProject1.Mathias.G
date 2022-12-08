@@ -131,6 +131,10 @@ section{
 }
 
 /*homepage*/
+
+.museum_img{
+    margin-top: 135.5px;
+}
 .welcome_message, .explore_exhibits{
     background-color:#FFEB3B;
     margin-top: 0;
@@ -692,6 +696,7 @@ section{
         grid-template-rows: repeat(2,auto);
         column-gap: 15px;
         max-width: 1500px;
+        margin: 100px auto 100px auto;
     }
     .cosmo_container h1{
         grid-row: 1/2;
