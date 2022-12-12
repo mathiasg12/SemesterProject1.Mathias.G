@@ -163,6 +163,7 @@ section{
 }
 
 .main_page_cta{
+    font-family: "georgia";
    text-decoration: none;
    color: white;
    width: 140px;
@@ -177,6 +178,7 @@ section{
 .main_page_cta:hover, .main_page_cta:focus{
     background-color:#33CC3D;
     font-size: 1.3em;
+    width: 160px;
 }
 .cta_con, .contact_cta{
     padding: 20px 0;
